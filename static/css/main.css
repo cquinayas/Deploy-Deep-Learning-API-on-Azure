@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+  
+.hero{
+    
+    width: 100%;
+    margin: auto;
+    min-width: 320px;
+    height: 250px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 8px 12px black;
+    
+}
+.hero-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    align-self: center;
+}
+.hero-text{
+    text-align: center;
+    align-self: center;
+    margin-top: -180px;
+    font-size: 5rem;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+    min-width: 320px;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    
+}
+.container ul{
+    list-style: none;
+    
+    
+}
+#chooseimg{
+    width: 350px;
+    font-size: 1.6rem;
+    border-radius: 4px;
+}
+#detecttum{
+    margin-top: 10px;
+    width: 350px;
+    font-size: 1.8rem;
+    border-radius: 4px;
+    background-color: #f7931a;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    min-width: 320px;
+    height: 250px;
+    margin-top: 30px;
+}
+#predtext{
+    width: 350px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: red;
+    border-radius: 4px;
+}
+
+#tumorimg{
+    width: 200px;
+    height: 200px;
+}
+footer{
+    
+    width: 100%;
+    height: 50px;
+    font-size: 1.5rem;
+    background-color: #6057d4;
+    border: 1px solid #333;
+    color: #d1d4d6;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 8px 12px black;
+
+}
+
+
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons a {
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: antiquewhite;
+}
